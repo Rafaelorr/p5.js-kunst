@@ -14,6 +14,12 @@ function setup() {
     
     fill(255, 255, 0);
     rect(350, 355, 100, 50);
+
+    stroke(0);
+    strokeWeight(4);
+    line(0, 75, 98, 75)
+
+    line(50, 75, 50, 300)
 }
   
 function draw() {
