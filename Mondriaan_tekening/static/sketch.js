@@ -7,24 +7,34 @@ function setup() {
     strokeWeight(4);
 
     // witte achtergrond
+
+    // kleur van vorm in rgb
     fill(255);
+    // x punt links boven, y punt link boven, x punt rechts onder, y punt recht onder
     rect(-20, -20, 500, 500);
 
     // rode vierkant rechts boven
 
-    // kleur van vorm
+    // kleur van vorm in rgb
     fill(230, 20, 20);
-    rect(100, 0, 300, 300);
+    // x punt links boven, y punt link boven, x punt rechts onder, y punt recht onder
+    rect(100, 0, 340, 300);
 
     // blauwe vierkant links onder
+
+    // kleur van vorm in rgb
     fill(40, 20, 200);
+    // x punt links boven, y punt link boven, x punt rechts onder, y punt recht onder
     rect(0, 300, 100, 100);
 
     // gele vierkant rechts onder
+
+    // kleur van vorm in rgb
     fill(255, 255, 0);
+    // x punt links boven, y punt link boven, x punt rechts onder, y punt recht onder
     rect(350, 355, 100, 50);
     
-    // kleur lijnen
+    // kleur lijnen in rgb
     stroke(0);
 
     // dikte van lijn
