@@ -2,7 +2,7 @@ from flask import Flask,request,render_template
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/",methods=["POST","GET"])
 def home():
     if request.method == "POST":
         javascript_file = request.form.get("javascript_file")
