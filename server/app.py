@@ -7,5 +7,7 @@ def home():
     if request.method == "POST":
         pass
         return render_template("index.html",javascript_file=None)
-    return render_template("")
+    return render_template("form.html")
 
+if __name__ == "__main__":
+    app.run(debug=True,host="0.0.0.0")
