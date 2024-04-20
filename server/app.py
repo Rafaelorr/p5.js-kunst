@@ -5,8 +5,8 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     if request.method == "POST":
-        pass
-        return render_template("index.html",javascript_file=None)
+        javascript_file = request.form.get("javascript_file")
+        return render_template("index.html",javascript_file=javascript_file)
     return render_template("form.html")
 
 if __name__ == "__main__":
