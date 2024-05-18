@@ -19,6 +19,7 @@ Als je python al geïnstaleerd heb installeer dan flask.
     Gaan naar python.org en download de juiste installer.
     Run de installer en je bent klaar.
 ### instaleer flask
-run `pip install -r requirements.txt` om flask te instaleren.
+Open de terminal in de folder met de server code.
+Run `pip install -r requirements.txt` om flask te instaleren.
 
 ### run de server
