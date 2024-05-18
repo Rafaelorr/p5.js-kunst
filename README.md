@@ -23,3 +23,5 @@ Open de terminal in de folder met de server code.
 Run `pip install -r requirements.txt` om flask te instaleren.
 
 ### run de server
+Open de terminal in de folder met de server code.
+Run `python3 app.py`om de web server te starten.
