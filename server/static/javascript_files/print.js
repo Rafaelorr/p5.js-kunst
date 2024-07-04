@@ -1,12 +1,11 @@
-const size = Math.random(1,40);
+let size = 12;
 let x = 0;
 let y = 0;
 
 function setup() {
   createCanvas(400, 400);
-    background(0);
-  
-  }
+  background(0);
+}
 
 function draw() {
   fill(230);
